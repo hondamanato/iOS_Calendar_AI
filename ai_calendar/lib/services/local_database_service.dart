@@ -34,6 +34,7 @@ class LocalDatabaseService {
         databaseFactory = databaseFactoryFfi;
       } catch (e) {
         print('sqflite_common_ffi初期化エラー: $e');
+        // エラーが発生した場合はデフォルトのdatabaseFactoryを使用
       }
       
       final databasePath = await getDatabasesPath();
