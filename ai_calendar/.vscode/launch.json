@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "AI Calendar (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "chrome",
+        "--dart-define=SUPABASE_URL=YOUR_SUPABASE_URL_HERE",
+        "--dart-define=SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY_HERE",
+        "--dart-define=OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE"
+      ]
+    },
+    {
+      "name": "AI Calendar (macOS)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "-d",
+        "macos",
+        "--dart-define=SUPABASE_URL=YOUR_SUPABASE_URL_HERE",
+        "--dart-define=SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY_HERE",
+        "--dart-define=OPENAI_API_KEY=YOUR_OPENAI_API_KEY_HERE"
+      ]
+    }
+  ]
+} 
